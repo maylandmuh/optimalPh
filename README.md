@@ -1,3 +1,10 @@
+# Environment
+Try to create conda environment using the following command:
+```bash
+conda create -n esm_env --file package-list.txt
+conda activate esm_env
+```
+
 # Inference
 
 You can download the models from from the google drive[Here](https://drive.google.com/drive/folders/1CRKzq3DGFjlTH3MzTZ8a3AQaB23YrfCn?usp=sharing)
