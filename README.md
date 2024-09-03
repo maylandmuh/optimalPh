@@ -1,8 +1,12 @@
 # Environment
-Try to create conda environment using the following command:
+Try to create conda environment using the following commands:
 ```bash
-conda create -n esm_env --file package-list.txt
+conda create -n esm_env
 conda activate esm_env
+
+conda install pytorch pytorch-cuda=12.4 -c pytorch -c nvidia -y
+conda install fire fair-esm xgboost -y
+pip install fairscale
 ```
 
 # Inference
