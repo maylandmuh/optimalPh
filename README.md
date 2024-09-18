@@ -11,7 +11,8 @@ pip install fairscale
 
 # Inference
 
-You can download the models from the google drive: [Here](https://drive.google.com/drive/folders/1CRKzq3DGFjlTH3MzTZ8a3AQaB23YrfCn?usp=sharing)
+You can download the model weights from the Constructor Research Platform project [here](https://research.constructor.tech/platform/public/project/optimalph) or from google drive [here](https://drive.google.com/drive/folders/1CRKzq3DGFjlTH3MzTZ8a3AQaB23YrfCn?usp=sharing)
+
 
 ```bash
 python3 code/predict.py --input_csv sequences.csv --seq_col sequence --model_fname weights/model_xgboost --output_csv sequences_scored.csv
